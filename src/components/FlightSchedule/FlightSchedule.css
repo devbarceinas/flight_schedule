@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.content__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.content__row-50 {
+  flex: 50%;
+}
+
+.content__row-25 {
+  flex: 25%;
+}
+
+.content__row-50,
+.content__row-25 {
+  padding: 0 16px;
+}
+
+.content__reserve {
+  background-color: white;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+}
+
+input[type=date],
+input[type=number] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.button__container {
+  display: flex;
+  justify-content: center;
+}
+
+.button__flight {
+  width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #3557FC;
+  color: white;
+  font-size: 18px;
+}
+
+button:disabled {
+  background-color: #666;
+  opacity: .3;
+}
